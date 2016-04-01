@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BroadcastDevice</string>
+    <string name="channel_name">Channel: </string>
+    <string name="share_button">Share Location</string>
+    <string name="follow_button">View Friend\'s Location</string>
+    <string name="gmaps">Google Maps</string>
+    <string name="mapbox">MapBox</string>
+    <string name="channel_hint">Please enter a channel</string>
+    <string name="gmaps_share_location_activity">Share Location Activity</string>
+    <string name="gmaps_follow_location_activity">Follow Location Activity</string>
+    <string name="mbox_share_location_activity">Share Location Activity</string>
+    <string name="mbox_follow_location_activity">Follow Location Activity</string>
+    <string name="share_location">Start Sharing Your Location</string>
+    <string name="follow_location">Start Viewing Your Friend\'s Location</string>
+    <string name="title_activity_share_location">ShareLocationActivity</string>
+
+    <string name="google_app_id">906743361047</string>
+    <string name="title_activity_trial">TrialActivity</string>
+</resources>
