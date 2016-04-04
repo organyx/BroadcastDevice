@@ -31,13 +31,14 @@ public class PubNubManager {
         }
     }
 
-    public static void broadcastLocation(Pubnub pubnub, String channelName, double latitude,
-                                         double longitude, double altitude) {
+    public static void broadcastLocation(Pubnub pubnub, String channelName, String deviceID ,double latitude,
+                                         double longitude, long timeToken) {
         JSONObject message = new JSONObject();
         try {
-            message.put("lat", latitude);
-            message.put("lng", longitude);
-            message.put("alt", altitude);
+            message.put("ID", deviceID);
+            message.put("Lat", latitude);
+            message.put("Lng", longitude);
+            message.put("TimeToken", timeToken);
         } catch (JSONException e) {
             Log.e(TAG, e.toString());
         }

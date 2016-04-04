@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.ActionBar;
@@ -142,8 +143,8 @@ public class ShareLocationActivity extends AppCompatActivity implements
         mLatLng = new LatLng(location.getLatitude(), location.getLongitude());
 
         // Broadcast information on PubNub Channel
-        PubNubManager.broadcastLocation(mPubnub, channelName, location.getLatitude(),
-                location.getLongitude(), location.getAltitude());
+        PubNubManager.broadcastLocation(mPubnub, channelName, Build.MODEL,location.getLatitude(),
+                location.getLongitude(), location.getTime());
 
         // Update Map
         updateCamera();
