@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BroadcastDevice</string>
+    <string name="app_name">Broadcast Device</string>
     <string name="channel_name">Channel: </string>
     <string name="share_button">Share Location</string>
     <string name="follow_button">View Friend\'s Location</string>
