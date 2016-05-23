@@ -16,4 +16,7 @@
 
     <string name="google_app_id">906743361047</string>
     <string name="title_activity_trial">TrialActivity</string>
+
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
 </resources>

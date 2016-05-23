@@ -108,6 +108,10 @@ public class ShareLocationActivity extends AppCompatActivity implements
             mGoogleMap.setMyLocationEnabled(true);
         }
 
+        mGoogleMap.getUiSettings().setCompassEnabled(true);
+        mGoogleMap.getUiSettings().setMapToolbarEnabled(true);
+        mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
+
         Log.d(TAG, "Map Ready");
     }
 

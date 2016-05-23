@@ -14,10 +14,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="on_btn1_click"
-        android:text="Track"/>
+        android:text="@string/btn_start"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="on_btn2_click"
-        android:text="Stop"/>
+        android:text="@string/btn_stop"/>
 </LinearLayout>
